@@ -113,7 +113,7 @@ const timer = () => {
 
 //ゲームスタート時の処理
 start.addEventListener('click', () => {
-    setTimeout(timeOut,10000);
+    setTimeout(timeOut,60000);
     timer();
     // ランダムなテキストを表示する
     createText();
